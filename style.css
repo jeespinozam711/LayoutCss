@@ -121,6 +121,10 @@ header {
 .container .Price {
   float: right;
 }
+.container img {
+  margin: 0 auto;
+  display: block;
+}
 
 footer {
   position: absolute;
@@ -129,4 +133,34 @@ footer {
   /* bottom: 100px; */
   height: 150px;
   background-color: #c0c0c0;
+}
+
+footer .footerSection{
+  width: 20%;
+  height: 100%;
+  border-left: 1px solid #f0f0f0;
+  display: block;
+  float: left;
+
+}
+
+
+footer .footerSectionMenor{
+  width: 10%;
+  height: 100%;
+  display: block;
+  float: left;
+  
+}
+
+.footerItem {
+  /* display: block; */
+  padding: 4%;
+  /* height: 100%; */
+}
+
+.footerItem img{
+  width: 100px;
+  float: left;
+  margin-right: 10px;
 }
